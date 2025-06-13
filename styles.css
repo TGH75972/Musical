@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: "Verdana", sans-serif;
+  background: #000000;
+  color: #ffffff;
+}
+
+header {
+  background-color: #111;
+  padding: 25px;
+  text-align: center;
+}
+
+nav a {
+  color: #ff4081;
+  margin: 0 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.intro {
+  text-align: center;
+  padding: 40px;
+}
+
+.main-img {
+  width: 60%;
+  max-width: 500px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.blog-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+  gap: 25px;
+}
+
+.blog-card {
+  background: #1a1a1a;
+  border: 2px solid #ff4081;
+  padding: 20px;
+  width: 260px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.blog-card:hover {
+  transform: scale(1.05);
+}
+
+.faq {
+  max-width: 650px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.accordion .item {
+  margin-bottom: 12px;
+}
+
+.toggle {
+  background: #c6ff40;
+  border-radius: 10px;
+  border-style: dashed;
+  border-color: wheat;
+  color: black;
+  font-size: 16px;
+  padding: 15px;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+.toggle:hover {
+  background: #cae689;
+  border-radius: 10px;
+  border-style: dashed;
+  border-color: wheat;
+  color: black;
+  font-size: 16px;
+  padding: 15px;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+
+.content {
+  display: none;
+  background: #222;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+footer {
+  background: #111;
+  text-align: center;
+  padding: 20px;
+  margin-top: 60px;
+}
